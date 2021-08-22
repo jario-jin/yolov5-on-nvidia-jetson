@@ -1,0 +1,19 @@
+# Beijing Institute of Technology
+# Train command: python train.py --data aruco_marker_v2108.yaml
+# Default dataset location is next to /yolov5:
+#   /parent_folder
+#     /data/aruco_marker_v2108
+#     /yolov5
+
+# download command/URL (optional)
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: ../data/aruco_marker_v2108/images/train/ 
+val: ../data/aruco_marker_v2108/images/val/
+
+# number of classes
+nc: 1
+
+# class names
+names: ['aruco']
+

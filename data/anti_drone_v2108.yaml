@@ -1,0 +1,19 @@
+# Beijing Institute of Technology
+# Train command: python train.py --data anti_drone_v2108.yaml
+# Default dataset location is next to /yolov5:
+#   /parent_folder
+#     /data/anti_drone_v2108
+#     /yolov5
+
+# download command/URL (optional)
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: ../data/anti_drone_v2108/images/train/ 
+val: ../data/anti_drone_v2108/images/val/
+
+# number of classes
+nc: 3
+
+# class names
+names: ['h-quadrotor','mavic','phantom4']
+
